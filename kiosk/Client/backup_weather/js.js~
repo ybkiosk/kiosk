@@ -1,0 +1,18 @@
+$(document).ready(function(){
+$("#page").css("height", "4000");
+setTimeout(reload, 10000);
+setInterval(scroll, 10);
+});
+
+function scroll() {
+if ( $(window).scrollTop() > 3200 ) {
+  window.scrollTo(0,0);
+}
+else {
+window.scrollBy(0,1)
+}
+}
+
+function reload(){
+window.location.reload();
+}

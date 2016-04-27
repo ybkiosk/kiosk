@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="weather.css"/>
+<script src="jquery.js">
+</script>
+<script src="weather.js">
+</script>
+</head>
+<body>
+<div id="alerts_container" style="display:none;">
+<div id="alert_bar" class="just">
+</div>
+<hr>
+</div>
+<div id="weather_fancy">
+<p id="Timestamp" class="left">Time</p>
+<div id="innerhtml">
+<table id="split_col">
+<tr>
+<td id="general_col">
+<div id="gen_conditions" class="just">
+<img src="Icons/sunny.jpg" class="center" id="weather_icon">
+<span id="weather_description" class="center">X</span>
+<h2 id="temp">
+X
+</h2>
+<table id="weather_general" class="left" cellspacing="8">
+<tr>
+	<td>Feels Like</td>
+	<td id="feelslike_f" class="right">X</td>
+</tr>
+<tr>
+	<td>High/Low</td>
+	<td id="TempRange" class="right">X</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<hr>
+<img src="radar.gif" id="radar">
+<div id="detail_col">
+<table id="weather_details" class="left" cellspacing="10">
+<tr>
+<td>
+<table>
+<tr>
+	<td>Wind Speed</td>
+	<td id="wind">X</td>
+	<td id="wind_compass_container" rowspan="2">
+		<div>
+		<img src="Icons/compass.png" id="wind_compass" class="center">
+			<span id="wind_mph">X</span>
+		</div>
+	</td>
+</tr>
+<tr>
+	<td>Wind Direction</td>
+	<td id="wind_dir">X</td>
+</tr>
+<tr>
+</tr>
+<tr>
+	<td>Humidity</td>
+	<td id="relative_humidity">X</td>
+</tr>
+<tr>
+	<td>Dew Point</td>
+	<td id="dewpoint_f">X</td>
+</tr>
+<tr>
+	<td>Pressure</td>
+	<td id="pressure_in">X</td>
+</tr>
+</table>
+</td>
+<td>
+<table>
+<tr>
+	<th colspan="2">Past Precip</th>
+</tr>
+<tr>
+</tr>
+<tr>
+</tr>
+<tr>
+	<td>24-hour</td>
+	<td id="precip_today_in">X</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

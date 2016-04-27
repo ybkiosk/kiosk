@@ -1,0 +1,19 @@
+Server:
+jquery *included
+tplawesome.js *included
+jq (json parsing module) \ install via aptitude (package: jq)
+apache2 (http file server) \ install via aptitude  * link directory into /var/www/html
+tr (text manipulation) \ install via aptitude (package: tr)
+grep (text manipulation) \ install via aptitude (package: grep)
+php (hypertext processor) \ install via aptitude (package: php5)
+
+Client:
+jquery *included
+ajax *included
+mediaElement.js *included
+google chrome \ install via aptitude (package: chrome-beta)
+	-need ad block plus
+window manager (on preference)
+support for mpeg-4 and h264 codecs (mp4, mov, 3gp?)
+	double-check 3gp (due to audio codec)
+cec-client (package: cec-utils)

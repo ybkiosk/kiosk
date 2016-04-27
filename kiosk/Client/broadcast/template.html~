@@ -1,0 +1,21 @@
+<HTML>
+<head>
+<script type="text/javascript" src="jquery.js">
+</script>
+<script type="text/javascript" src="http://localhost/broadcast/mediaElement/build/mediaelement-and-player.min.js">
+</script>
+<!--<script type="text/javascript" src="template.js">
+</script>-->
+<link rel="stylesheet" href="mediaElement/build/mediaelementplayer.min.css">
+<link rel="stylesheet" href="template.css">
+</head>
+<body>
+<video id="player" autoplay>
+<source id="data" type="" src="" />
+</video>
+</body>
+</HTML>
+<!--https://www.youtube.com/watch?v=A3ytTKZf344?rel=0&amp;amp;amp;controls=0&amp;amp;amp;showinfo=0&amp;amp;amp;autoplay=1&amp;amp;amp;autoplay=1
+https://www.youtube.com/embed/A3ytTKZf344?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;autoplay=1-->
+
+

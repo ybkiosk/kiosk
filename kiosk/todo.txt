@@ -1,0 +1,12 @@
+//refile jquery source
+complete server side ajax and apache
+	Protect server files
+	//way to sync broadcasts?
+	script to change kiosk mode....... json
+	video handler Youtube API
+finish weather app
+complete server code for announcements
+
+
+check if youtube add <video> inside <iframe>, and then mayby use jquery selectors to find the video.
+

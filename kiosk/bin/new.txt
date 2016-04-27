@@ -1,0 +1,2 @@
+[36;01m Welcome to Linux on i.MX6. This System comes preinstalled with [39;49;00m  "imx6-config" [39;49;00m [36;01m, a user-friendly tool to manipulate system settings. [39;49;00m
+test

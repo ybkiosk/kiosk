@@ -1,0 +1,31 @@
+echo $(http get https://mesonet.agron.iastate.edu/GIS/apps/rview/warnings.phtml?autopilot=1&osite=DLH&tzoff=0&lat0=45.621666666666&lon0=-95.600625&layers%5B%5D=nexrad&layers%5B%5D=warnings&layers%5B%5D=cwas&layers%5B%5D=uscounties&layers%5B%5D=interstates&layers%5B%5D=watches&layers%5B%5D=blank&site=DLH&tz=CDT&year=2015&month=5&day=1&hour=20&minute=35&warngeo=both&zoom=500&imgsize=800x600&loop=1&frames=10&interval=30&filter=1&cu=1&sortcol=fcster&sortdir=0&lsrlook=%2B&lsrwindow=5) | grep "Download as Animated Gif"
+
+Regex:
+sed -n 's|^<a href="anim_gif.php?fts=1430669146">\([^<]*\)</a>$|\1|p' site.txt
+grep -Po '<a href= \K*(?= >)'
+
+awk -F'<a href="anim_gif.php?fts=1430669146"|</a>' '{print $2}' file.txt
+
+
+
+
+WU API
+Key: 2062cf09449e02a3
+http://www.wunderground.com/weather/api/d/docs?d=layers/radar-satellite
+
+animatedradar/animatedsatellite
+
+
+High School:
+45.631361 lat
+-94.560120 long
+
+
+
+
+https://mesonet.agron.iastate.edu/GIS/radmap.php?ts=201505011935&width=640&height=480&bbox=-95.757,43.007,-90.757,48.007&layers[]=interstates&layers[]=uscounties&layers[]=cwas&layers[]=watches&layers[]=nexrad&layers[]=county_warnings&layers[]=sbw&layers[]=lsrs&ts2=201505011935
+
+http://rss.cnn.com/rss/cnn_topstories.rss
+
+
+wunderground.com/weather/api/d/docs?d=resources/code-samples

@@ -1,0 +1,16 @@
+#radar{
+width:49%;
+height:100%;
+position:fixed;
+top:0px;
+left:100%;
+}
+#closings{
+width:49%;
+height: 100%;
+float:left;
+}
+iframe{
+width:100%;
+height:100%;
+}

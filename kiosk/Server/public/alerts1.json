@@ -1,0 +1,416 @@
+jsonCallback(
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  }
+	}
+		,"query_zone": "049",
+	"alerts": [
+		{
+		"type": "WRN",
+		"description": "Severe Thunderstorm Warning",
+		"date": "11:18 PM CDT on July 5, 2015",
+		"date_epoch": "1436156280",
+		"expires": "11:45 PM CDT on July 05, 2015",
+		"expires_epoch": "1436157900",
+		"tz_short":"CDT",
+		"tz_long":"America/Chicago",
+		"message": "\u000A...A Severe Thunderstorm Warning remains in effect until 1145 PM CDT\u000Afor northeastern Stearns...northwestern Sherburne and Benton\u000Acounties...\u000A\u000AAt 1118 PM CDT...severe thunderstorms were located along a line\u000Aextending from near St. Stephen to St. Joseph to near farming...\u000Amoving east at 40 mph.\u000A\u000AHazard...60 mph wind gusts and nickel size hail. \u000A\u000ASource...radar indicated. \u000A\u000AImpact...expect damage to roofs...siding and trees. \u000A\u000AThese severe storms will be near...\u000A Rice around 1125 PM CDT.\u000A Sartell around 1130 PM CDT.\u000A Sauk Rapids...Waite Park and Foley around 1135 PM CDT.\u000A St. Cloud around 1140 PM CDT.\u000A\u000AOther locations impacted by these severe thunderstorms include\u000ARonneby...parent...Oak Park...St. Stephen...St cloud Airport...\u000ADuelm...St Wendel...Pleasant Lake...Gilman and Mayhew.\u000A\u000AThis includes Interstate 94 in Minnesota between mile markers 153 and\u000A171.\u000A \u000APrecautionary/preparedness actions...\u000A\u000AFor your protection move to an interior room on the lowest floor of a\u000Abuilding.\u000A\u000ATorrential rainfall is occurring with these storms...and may lead to\u000Aflash flooding. Do not drive your vehicle through flooded roadways.\u000A\u000A\u000ALat...Lon 4571 9377 4558 9390 4548 9395 4550 9460\u000A 4562 9445 4577 9429 4581 9377\u000Atime...Mot...loc 0418z 266deg 35kt 4569 9418 4556 9431 4552 9451 \u000A\u000AHail...0.88in\u000Awind...60mph\u000A \u000A\u000A\u000A\u000A",
+		"phenomena": "SV",
+		"significance": "W",
+		"ZONES": [
+		{
+		"state":"MN",
+		"ZONE":"050"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"051"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"049"
+		}
+		],
+		"StormBased": {
+		}
+		}
+		,
+		{
+		"type": "SEW",
+		"description": "Severe Thunderstorm Watch",
+		"date": "11:24 PM CDT on July 05, 2015",
+		"date_epoch": "1436156640",
+		"expires": "2:00 AM CDT on July 06, 2015",
+		"expires_epoch": "1436166000",
+		"tz_short":"CDT",
+		"tz_long":"America/Chicago",
+		"message": "\u000ASevere Thunderstorm Watch 393 remains in effect until 200 am CDT\u000A\u000AMN \u000A. Minnesota counties included are\u000A\u000ABenton Chippewa Douglas \u000AIsanti Kanabec Kandiyohi \u000ALac Qui Parle Lincoln Lyon \u000AMcLeod Meeker Mille Lacs \u000AMorrison Murray Nobles \u000APipestone Pope Redwood \u000ARenville rock Sherburne \u000AStearns Stevens swift \u000ATodd Wright Yellow Medicine \u000A\u000A\u000A\u000A\u000A",
+		"phenomena": "SV",
+		"significance": "A",
+		"ZONES": [
+		{
+		"state":"MN",
+		"ZONE":"050"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"056"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"041"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"052"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"045"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"057"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"054"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"071"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"072"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"066"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"058"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"044"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"043"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"080"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"089"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"097"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"048"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"073"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"065"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"098"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"051"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"049"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"047"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"055"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"042"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"059"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"064"
+		}
+		],
+		"StormBased": {
+		}
+		}
+		,
+		{
+		"type": "FLO",
+		"description": "Flash Flood Warning",
+		"date": "11:28 PM CDT on July 5, 2015",
+		"date_epoch": "1436156880",
+		"expires": "2:30 AM CDT on July 06, 2015",
+		"expires_epoch": "1436167800",
+		"tz_short":"CDT",
+		"tz_long":"America/Chicago",
+		"message": "\u000AThe National Weather Service in the Twin Cities has issued a\u000A\u000A* Flash Flood Warning for...\u000A eastern Stearns County in central Minnesota... \u000A northwestern Sherburne County in central Minnesota... \u000A southwestern Benton County in central Minnesota...\u000A\u000A* until 230 am CDT\u000A \u000A* at 1126 PM CDT...Doppler radar indicated a thunderstorm producing \u000A heavy rain...with rainfall rates in excess of 2 inches per hour \u000A across the warned area. Flash flooding is expected to begin \u000A shortly...especially in the city of St. Cloud.\u000A\u000A* Some locations that will experience flooding include...\u000A St. Cloud...Sartell...Sauk Rapids...Waite Park...St. Joseph...\u000A Collegeville...Albany...Rockville...Avon...farming...and St Wendel.\u000A\u000AThis includes Interstate 94 in Minnesota between mile markers 145 and\u000A171.\u000A \u000APrecautionary/preparedness actions...\u000A\u000ABe especially cautious at night when it is harder to recognize the\u000Adangers of flooding.\u000A\u000A\u000ALat...Lon 4570 9406 4548 9403 4548 9462 4568 9462\u000A\u000A\u000A\u000A",
+		"phenomena": "FF",
+		"significance": "W",
+		"ZONES": [
+		{
+		"state":"MN",
+		"ZONE":"050"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"051"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"049"
+		}
+		],
+		"StormBased": {
+		}
+		}
+		,
+		{
+		"type": "WAT",
+		"description": "Flash Flood Watch",
+		"date": "8:54 PM CDT on July 5, 2015",
+		"date_epoch": "1436147640",
+		"expires": "1:00 PM CDT on July 06, 2015",
+		"expires_epoch": "1436205600",
+		"tz_short":"CDT",
+		"tz_long":"America/Chicago",
+		"message": "\u000A...Flash Flood Watch in effect through Monday afternoon...\u000A\u000AThe National Weather Service in Twin Cities/Chanhassen has issued\u000Aa\u000A\u000A* Flash Flood Watch for portions of central Minnesota...east \u000A central Minnesota...south central Minnesota...southwest \u000A Minnesota and west central Minnesota...including the following \u000A areas...in central Minnesota...Benton...Kandiyohi...McLeod... \u000A Meeker...Renville...Sherburne...Sibley...Stearns and Wright. \u000A In east central Minnesota...Anoka...Carver...Chisago... \u000A Dakota...Hennepin...Isanti...Ramsey...Scott and Washington. In \u000A south central Minnesota...Blue Earth...Brown...Faribault...Le \u000A Sueur...Martin...Nicollet...Rice...Waseca and Watonwan. In \u000A southwest Minnesota...Redwood. In west central Minnesota... \u000A Chippewa...Lac Qui Parle...Pope...Stevens...swift and Yellow \u000A Medicine. \u000A\u000A* Through Monday afternoon.\u000A\u000A* 2 to 4 inches of rain are likely...especially toward southwest\u000A Minnesota through Monday morning. Some localized amounts of 4\u000A to 7 inches are possible.\u000A\u000A* Flash flooding of low lying areas...creeks...streams...and urban\u000A areas is possible. \u000A\u000APrecautionary/preparedness actions...\u000A\u000AA Flash Flood Watch means that conditions may develop that lead\u000Ato flash flooding. Flash flooding is a very dangerous situation.\u000A\u000AYou should monitor later forecasts and be prepared to take action\u000Ashould flash flood warnings be issued.\u000A\u000A\u000A\u000ABorghoff\u000A\u000A\u000A\u000A",
+		"phenomena": "FF",
+		"significance": "A",
+		"ZONES": [
+		{
+		"state":"MN",
+		"ZONE":"047"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"048"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"049"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"050"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"051"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"052"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"053"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"054"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"055"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"056"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"057"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"058"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"059"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"060"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"061"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"062"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"063"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"064"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"065"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"066"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"067"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"068"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"069"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"070"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"073"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"074"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"075"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"076"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"077"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"082"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"083"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"084"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"091"
+		}
+		,
+		{
+		"state":"MN",
+		"ZONE":"092"
+		}
+		],
+		"StormBased": {
+		}
+		}
+	]
+}
+);

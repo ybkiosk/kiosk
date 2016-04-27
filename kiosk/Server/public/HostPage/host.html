@@ -1,0 +1,57 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js">
+</script>
+<script type="text/javascript" src="host.js">
+</script>
+<script type="text/javascript" src="tplawesome.js">
+</script>
+<script src="https://apis.google.com/js/client.js?onload=onClientLoad">
+</script>
+<link rel="stylesheet" href="host.css">
+</head>
+<body>
+<table>
+<tr>
+<td id="form">
+<form action="action.php" method="post" enctype="multipart/form-data">
+<i>Warning if video is shorter than 2 minutes in length, errors may occur</i>
+<br/>
+<br/>
+Video Source:
+<br>
+<input type="file" name="upload" id="file">
+<input type="text" name="source" id="source" placeholder="Search Youtube Here">
+YouTube<input type="radio" id="utube" name="youtube" checked="checked"> Local<input type="radio" id="local" name="local"> Web<input type="radio" id="web" name="web"> 
+<br>
+<br>
+Launch Time:
+<div id="clone" style="visibility:hidden;">
+<input type="time" class="time" name="time" id="time">
+<input type="date" class="date" name="date" id="date"> 
+</div>
+<div id="launch_time">
+<input type="hidden" name="hidden" id="hidden">
+<div id="instance">
+<input type="time" class="time" name="time0" id="time0">
+<input type="date" class="date" name="date0" id="date0"> 
+<input type="button" value="now" id="today">
+</div>
+</div>
+<br>
+<input type="button" value="add another time" id="new_time">
+<br>
+*note: it may take up to 1 minute for the broadcast to begin
+<br>
+<br>
+<br>
+</form>
+<input type="button" value="Launch Broadcast" id="launch">
+</td>
+<td id="search_containter">
+<div id="search_results">
+</div>
+</td>
+</tr>
+</body>
+</html>

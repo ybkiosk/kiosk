@@ -1,0 +1,73 @@
+.center {
+width:50%;
+margin-right:auto;
+margin-left:auto;
+}
+
+.left{
+}
+
+.just{
+width=100%;
+}
+
+#split_col{
+width:100%
+margin-right:auto;
+}
+
+.weather{
+width:30%;
+}
+
+#radar{
+width:100%;
+height:auto;
+}
+
+body{
+width:100%;
+}
+
+tr{
+font-size:200%;
+}
+
+p{
+font-size:150%;
+}
+
+#alert_bar{
+font-size:180%;
+}
+
+#wind_compass{
+transform: rotate(0deg);
+position: relative;
+}
+
+#alert_bar div{
+background-color:#ff0000;
+}
+
+#wind_mph{
+position: relative;
+left:-40%;
+top: -28px;
+}
+
+#weather_details{
+border-left: 2px solid black;
+}
+
+#weather_fancy{
+background-image: url("school.jpg");
+background-size: 100% 100%;
+width:100%;
+}
+
+#innerhtml{
+background-color:#FFFFFF;
+opacity:0.87;
+width:25%;
+}

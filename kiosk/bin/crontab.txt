@@ -1,0 +1,2 @@
+#* 	* 	*	* 	* 		bash $HOME/kiosk/bin/radar.sh
+0,30 * * * * bash /home/debian/kiosk/bin/git.sh & > /home/debian/kiosk/bin/logs/ip.log

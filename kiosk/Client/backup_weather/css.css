@@ -1,0 +1,18 @@
+#radar{
+width:49%;
+height:100%;
+position:relative;
+float:right;
+}
+#iradar{
+position:fixed;
+}
+#closings{
+width:49%;
+height: 100%;
+float:left;
+}
+iframe{
+width:100%;
+height:100%;
+}

@@ -1,0 +1,22 @@
+.thumbnail{
+}
+
+td{
+vertical-align:top;
+}
+
+th{
+vertical-align:bottom;
+}
+
+#form{
+width:40%;
+}
+
+.item{
+display:inline-block;
+border:2px solid black;
+}
+
+body{
+}

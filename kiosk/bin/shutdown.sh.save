@@ -1,0 +1,17 @@
+HOME="/home/debian"
+#shutdown
+killall chromium &
+crontab -r -u debian
+
+#echo 'standby 0' | cec-client -s /dev/device >> ceclog.txt
+
+
+echo "Shutting down at" $(date) >> logs/boot.txt
+
+
+if [ $(date +%a) != "Fri" ]
+then
+echo debian | sudo -S rtcwake -m mem -u -t $(date +%s -d 'tomorrow 07:45') && bash sudo -u debian $HOME/kiosk/bin/startup.sh
+else
+echo debian | sudo -S rtcwake -m mem -u -t $(date +%s -d '3 days 7:45') && sudo -u debian bash $HOME/kiosk/bin/startup.sh
+fi

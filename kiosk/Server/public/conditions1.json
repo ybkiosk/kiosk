@@ -1,0 +1,96 @@
+jsonCallback(
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Albany, MN",
+		"city":"Albany",
+		"state":"MN",
+		"state_name":"Minnesota",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"56307",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"45.63731003",
+		"longitude":"-94.57807159",
+		"elevation":"379.00000000"
+		},
+		"observation_location": {
+		"full":"Saint Johns University Campus, Collegeville, Minnesota",
+		"city":"Saint Johns University Campus, Collegeville",
+		"state":"Minnesota",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"45.580978",
+		"longitude":"-94.390778",
+		"elevation":"1200 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KMNCOLLG2",
+		"observation_time":"Last Updated on July 5, 11:35 PM CDT",
+		"observation_time_rfc822":"Sun, 05 Jul 2015 23:35:55 -0500",
+		"observation_epoch":"1436157355",
+		"local_time_rfc822":"Sun, 05 Jul 2015 23:36:41 -0500",
+		"local_epoch":"1436157401",
+		"local_tz_short":"CDT",
+		"local_tz_long":"America/Chicago",
+		"local_tz_offset":"-0500",
+		"weather":"Thunderstorm",
+		"temperature_string":"71.0 F (21.7 C)",
+		"temp_f":71.0,
+		"temp_c":21.7,
+		"relative_humidity":"94%",
+		"wind_string":"From the WNW at 9.4 MPH Gusting to 27.0 MPH",
+		"wind_dir":"WNW",
+		"wind_degrees":288,
+		"wind_mph":9.4,
+		"wind_gust_mph":"27.0",
+		"wind_kph":15.1,
+		"wind_gust_kph":"43.5",
+		"pressure_mb":"1011",
+		"pressure_in":"29.87",
+		"pressure_trend":"-",
+		"dewpoint_string":"69 F (21 C)",
+		"dewpoint_f":69,
+		"dewpoint_c":21,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"71.0 F (21.7 C)",
+		"feelslike_f":"71.0",
+		"feelslike_c":"21.7",
+		"visibility_mi":"7.0",
+		"visibility_km":"11.3",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"1.04 in (26 mm)",
+		"precip_1hr_in":"1.04",
+		"precip_1hr_metric":"26",
+		"precip_today_string":"1.06 in (27 mm)",
+		"precip_today_in":"1.06",
+		"precip_today_metric":"27",
+		"icon":"tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"forecast_url":"http://www.wunderground.com/US/MN/Albany.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMNCOLLG2",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=45.580978,-94.390778",
+		"nowcast":""
+	}
+}
+);

@@ -1,0 +1,8 @@
+current conditions:
+http://api.wunderground.com/api/2062cf09449e02a3/conditions/q/MN/Albany.json
+
+forecast:
+http://api.wunderground.com/api/2062cf09449e02a3/forecast/q/MN/Albany.json
+
+alert data:
+http://api.wunderground.com/api/2062cf09449e02a3/alerts/q/MN/Albany.json
